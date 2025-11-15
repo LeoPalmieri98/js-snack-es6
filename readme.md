@@ -16,3 +16,6 @@ Infine, creiamo un nuovo array di stringhe in cui pushiamo solo i nomi delle squ
 
 BONUS
 Nello snack 2, invece di pushare le stringhe, pushate un NUOVO oggetto che conterrà: il nome della squadra e i falli subiti.
+
+
+ const biciLeggera = array[peso];
