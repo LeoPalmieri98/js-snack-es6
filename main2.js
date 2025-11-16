@@ -1,3 +1,4 @@
+// Dati da elaborare
 let squadre = [
     {
         squadra: 'Inter',
@@ -16,7 +17,7 @@ let squadre = [
     }
 ];
 
-
+// Genera numeri random e aggiorna gli oggetti
 for (let i = 0; i < squadre.length; i++) {
     const selezioneSquadre = squadre[i];
     let falliRandom = Math.floor(Math.random() * 150) + 1;
@@ -26,4 +27,14 @@ for (let i = 0; i < squadre.length; i++) {
 }
 
 
+// Crea nuovo array con solo i nomi
+let nomiSquadre = [];
 
+for (let i = 0; i < squadre.length; i++) {
+    const nome = squadre[i].squadra;
+    nomiSquadre.push(nome);
+}
+
+// Stampa in console
+console.log("Squadre con valori random:", squadre);
+console.log("Solo nomi delle squadre:", nomiSquadre);
